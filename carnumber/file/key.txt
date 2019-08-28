@@ -1,0 +1,1 @@
+{'APP_ID':'17078918','API_KEY':'fgeSdlGLT0YxYhG5G4eYsuRO','SECRET_KEY':'kZAbSjfWtPKbmchXqsuBw6xOoH0Giywd'}
