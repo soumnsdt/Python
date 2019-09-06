@@ -35,8 +35,10 @@
       <height>141</height>
      </rect>
     </property>
-    <property name="text">
-     <string>TextLabel</string>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QWidget" name="widget_query" native="true">
@@ -131,20 +133,20 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
+   <widget class="QWidget" name="widget_checkbox" native="true">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>221</y>
       <width>960</width>
-      <height>100</height>
+      <height>50</height>
      </rect>
     </property>
-    <widget class="QLabel" name="label_4">
+    <widget class="QLabel" name="label_type">
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>22</y>
+       <y>20</y>
        <width>54</width>
        <height>12</height>
       </rect>
@@ -153,11 +155,11 @@
       <string>车次类型：</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox">
+    <widget class="QCheckBox" name="checkBox_G">
      <property name="geometry">
       <rect>
        <x>100</x>
-       <y>22</y>
+       <y>20</y>
        <width>71</width>
        <height>16</height>
       </rect>
@@ -166,11 +168,11 @@
       <string>GC-高铁</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_2">
+    <widget class="QCheckBox" name="checkBox_D">
      <property name="geometry">
       <rect>
        <x>250</x>
-       <y>22</y>
+       <y>20</y>
        <width>71</width>
        <height>16</height>
       </rect>
@@ -179,11 +181,11 @@
       <string>D-动车</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_3">
+    <widget class="QCheckBox" name="checkBox_Z">
      <property name="geometry">
       <rect>
        <x>400</x>
-       <y>22</y>
+       <y>20</y>
        <width>71</width>
        <height>16</height>
       </rect>
@@ -192,11 +194,11 @@
       <string>Z-直达</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_4">
+    <widget class="QCheckBox" name="checkBox_T">
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>22</y>
+       <y>20</y>
        <width>71</width>
        <height>16</height>
       </rect>
@@ -205,11 +207,11 @@
       <string>T-特快</string>
      </property>
     </widget>
-    <widget class="QCheckBox" name="checkBox_5">
+    <widget class="QCheckBox" name="checkBox_K">
      <property name="geometry">
       <rect>
        <x>700</x>
-       <y>22</y>
+       <y>20</y>
        <width>71</width>
        <height>16</height>
       </rect>
@@ -219,13 +221,23 @@
      </property>
     </widget>
    </widget>
-   <widget class="QListView" name="listView">
+   <widget class="QLabel" name="label_train_img">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>325</y>
-      <width>950</width>
-      <height>370</height>
+      <x>0</x>
+      <y>271</y>
+      <width>960</width>
+      <height>62</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>333</y>
+      <width>960</width>
+      <height>365</height>
      </rect>
     </property>
    </widget>
